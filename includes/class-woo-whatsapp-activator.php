@@ -4,7 +4,7 @@
  * Fired during plugin activation
  *
  * @link       https://robertodimarco.it/
- * @since      1.2.3
+ * @since      1.2.4
  *
  * @package    Woo_Whatsapp
  * @subpackage Woo_Whatsapp/includes
@@ -15,7 +15,7 @@
  *
  * This class defines all code necessary to run during the plugin's activation.
  *
- * @since      1.2.3
+ * @since      1.2.4
  * @package    Woo_Whatsapp
  * @subpackage Woo_Whatsapp/includes
  * @author     Roberto Di Marco <dimarco.roberto85@gmail.com>
@@ -27,7 +27,7 @@ class Woo_Whatsapp_Activator {
 	 *
 	 * Long Description.
 	 *
-	 * @since    1.2.3
+	 * @since    1.2.4
 	 */
 	public static function activate() {
 
