@@ -13,16 +13,6 @@
 #
 #
 
-
-
-
-
-
-
-
-
-
-
 class Parsedown
 {
     # ~
