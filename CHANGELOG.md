@@ -1,3 +1,10 @@
+# 1.0.0 (2022-07-09)
+
+
+### Bug Fixes
+
+* cambio ulr ([76e1799](https://github.com/robertox85/woo-whatsapp/commit/76e179957c97a0db0737fc0839ae53edb9e3eada))
+
 # [1.3.0](https://github.com/robertox85/woo-whatsapp/compare/1.2.0...1.3.0) (2022-07-08)
 
 

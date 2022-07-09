@@ -37,11 +37,13 @@
     "branches": [
       "master"
     ],
-    
     "plugins": [
-      ["@semantic-release/commit-analyzer",{
-        "analyzeCommits": "simple-commit-message"
-      }],
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "analyzeCommits": "simple-commit-message"
+        }
+      ],
       "@semantic-release/release-notes-generator",
       [
         "@semantic-release/npm",
