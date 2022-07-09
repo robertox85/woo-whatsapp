@@ -7,7 +7,7 @@
  * so that it is ready for translation.
  *
  * @link       https://robertodimarco.it/
- * @since      1.1.0
+ * @since      1.2.1
  *
  * @package    Woo_Whatsapp
  * @subpackage Woo_Whatsapp/includes
@@ -19,7 +19,7 @@
  * Loads and defines the internationalization files for this plugin
  * so that it is ready for translation.
  *
- * @since      1.1.0
+ * @since      1.2.1
  * @package    Woo_Whatsapp
  * @subpackage Woo_Whatsapp/includes
  * @author     Roberto Di Marco <dimarco.roberto85@gmail.com>
@@ -30,7 +30,7 @@ class Woo_Whatsapp_i18n {
 	/**
 	 * Load the plugin text domain for translation.
 	 *
-	 * @since    1.1.0
+	 * @since    1.2.1
 	 */
 	public function load_plugin_textdomain() {
 
