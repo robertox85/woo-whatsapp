@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish:fix": "git pull && git add . && npm run commit && npx semantic-release --no-ci && git pull --ff-only && git push",
+    "publish:fix": "git pull && git add . && npm run commit && npx semantic-release --no-ci && git pull --ff-only && npm run replace && git add . && git commit -m'bump version' && && git push",
     "publish:feat": "version-bump cli && git add . && git commit -m'feat: major' && npx semantic-release && git pull --ff-only && git push",
-    "commit": "simple-commit-message"
+    "commit": "simple-commit-message",
+    "replace": "replace-in-files --regex='\\d+\\.\\d+\\.\\d+' --replacement=$npm_package_version **/**.php **/**/**.php **/**.css **/**/**.css **/**.js **/**/**.js !Parsedown.php"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "@semantic-release/github": "^8.0.5",
     "@semantic-release/npm": "^9.0.1",
     "@semantic-release/release-notes-generator": "^10.0.3",
+    "replace-in-file": "^6.3.5",
     "semantic-release": "^19.0.3",
     "semantic-release-version-bump": "^1.4.1",
     "simple-commit-message": "^4.1.3",

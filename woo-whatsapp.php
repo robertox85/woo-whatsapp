@@ -9,14 +9,14 @@
  * that starts the plugin.
  *
  * @link              https://robertodimarco.it/
- * @since             1.0.0
+ * @since             1.0.3
  * @package           Woo_Whatsapp
  *
  * @wordpress-plugin
  * Plugin Name:       Whatsapp Cloud API for Woocommerce 
  * Plugin URI:        https://robertodimarco.it/
  * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version:           1.0.0
+ * Version:           1.0.3
  * Author:            Roberto Di Marco
  * Author URI:        https://robertodimarco.it/
  * License:           GPL-2.0+
@@ -54,10 +54,10 @@ function emptyFunction(){
 
 /**
  * Currently plugin version.
- * Start at version 1.0.0 and use SemVer - https://semver.org
+ * Start at version 1.0.3 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define('WOO_WHATSAPP_VERSION', '1.0.0');
+define('WOO_WHATSAPP_VERSION', '1.0.3');
 
 /**
  * The code that runs during plugin activation.
@@ -108,7 +108,7 @@ if (is_admin()) {
  * then kicking off the plugin from this point in the file does
  * not affect the page life cycle.
  *
- * @since    1.0.0
+ * @since    1.0.3
  */
 function run_woo_whatsapp()
 {
