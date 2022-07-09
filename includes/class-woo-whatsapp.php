@@ -215,4 +215,6 @@ class Woo_Whatsapp {
 		return $this->version;
 	}
 
+	
+
 }
