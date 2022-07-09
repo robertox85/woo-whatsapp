@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/robertox85/woo-whatsapp/compare/1.0.0...1.0.1) (2022-07-09)
+
+
+### Bug Fixes
+
+* Test ([9b99ac5](https://github.com/robertox85/woo-whatsapp/commit/9b99ac53a57fd693227a70719d0c2b1d7c31fd74))
+
 # 1.0.0 (2022-07-09)
 
 
