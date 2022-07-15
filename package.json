@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish:fix": "git pull && git add . && npm run commit && npx semantic-release --no-ci && git pull && git push && npm run replace && git add . && git commit --amend -m 'version bump' && git push",
+    "publish": "git pull && git add . && npm run commit && npx semantic-release --no-ci && git pull && git push && npm run replace && git add . && git commit --amend -m 'version bump' && git push",
     "publish:feat": "version-bump cli && git add . && git commit -m'feat: major' && npx semantic-release && git pull --ff-only && git push",
     "commit": "simple-commit-message",
     "replace": "replace-in-files --regex='\\d+\\.\\d+\\.\\d+' --replacement=$npm_package_version **/**.php **/**/**.php **/**.css **/**/**.css **/**.js **/**/**.js !Parsedown.php !node_modules/** !vendor/** !.git/** !.gitignore"
