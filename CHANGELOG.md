@@ -1,3 +1,11 @@
+# [1.3.0](https://github.com/robertox85/woo-whatsapp/compare/1.2.4...1.3.0) (2022-07-15)
+
+
+### Features
+
+* major ([04e9a06](https://github.com/robertox85/woo-whatsapp/commit/04e9a06c025d0aaf73404e4a684bb9ec67a8c4a2))
+* major ([fa128aa](https://github.com/robertox85/woo-whatsapp/commit/fa128aa73fffd61f378fbf8ddcfa7c5d71a68ab1))
+
 ## [1.2.4](https://github.com/robertox85/woo-whatsapp/compare/1.2.3...1.2.4) (2022-07-09)
 
 
