@@ -6,7 +6,7 @@
  * This file is used to markup the public-facing aspects of the plugin.
  *
  * @link       https://robertodimarco.it/
- * @since      1.3.0
+ * @since      1.3.1
  *
  * @package    Woo_Whatsapp
  * @subpackage Woo_Whatsapp/public/partials
