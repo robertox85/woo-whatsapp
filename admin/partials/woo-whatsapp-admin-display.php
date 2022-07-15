@@ -6,7 +6,7 @@
  * This file is used to markup the admin-facing aspects of the plugin.
  *
  * @link       https://robertodimarco.it/
- * @since      1.2.4
+ * @since      1.3.0
  *
  * @package    Woo_Whatsapp
  * @subpackage Woo_Whatsapp/admin/partials
