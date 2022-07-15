@@ -2,7 +2,7 @@
 	'use strict';
 
 	/**
-	 * Version: 1.3.2
+	 * Version: 1.3.3
 	 * All of the code for your public-facing JavaScript source
 	 * should reside in this file.
 	 *
